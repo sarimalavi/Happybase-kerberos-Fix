@@ -5,9 +5,9 @@ HappyBase connection module.
 """
 import sys 
 
-sys.path.insert(0,'/apps/hadoop_share/lib/python/kerberos/thrift-0.9.3/dist/thrift-0.9.3-py2.7-linux-x86_64.egg')
-sys.path.insert(0,'/apps/hadoop_share/lib/python/kerberos/pure-sasl-0.5.1/dist/pure_sasl-0.5.1-py2.7.egg')
-sys.path.insert(0,'/apps/hadoop_share/lib/python/kerberos/kerberos-1.3.0/dist/kerberos-1.3.0-py2.7-linux-x86_64.egg')
+sys.path.insert(0,'lib-eggs/thrift-0.9.3-py2.7-linux-x86_64.egg')
+sys.path.insert(0,'lib-eggs/pure_sasl-0.5.1-py2.7.egg')
+sys.path.insert(0,'lib-eggs/kerberos-1.3.0-py2.7-linux-x86_64.egg')
 
 import logging
 
